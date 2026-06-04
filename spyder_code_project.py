@@ -45,7 +45,7 @@ file1 = input("Please enter the name of the file where the Hubble diagram (norma
 plt.savefig(file1)
 plt.show()
 
-#From now on we only use the Pantheon+SH0ES dataset 
+#For now we only use the Pantheon+SH0ES dataset 
 
 #Normal scale
 plt.errorbar(z, mu, yerr=mu_err, fmt = 'o', markersize = 3, ecolor ='gray', label = "Supernova Ia")
